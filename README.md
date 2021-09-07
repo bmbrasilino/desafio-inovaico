@@ -27,4 +27,4 @@ npm run start
 ## Licença
 The [MIT License]() (MIT)
 
-Bianca Maciel :copyright: 2020
+Bianca Maciel :copyright: 2021
