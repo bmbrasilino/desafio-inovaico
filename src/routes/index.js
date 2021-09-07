@@ -8,6 +8,7 @@ import ListAllPatients from "../pages/ListPatient";
 import EditPatient from "../pages/EditPatient";
 import NewAppointment from "../pages/NewAppointment";
 import ListAppointment from "../pages/ListAppointment";
+import EditAppointment from "../pages/EditAppointment";
 
 const Routes = () => (
     <BrowserRouter>
@@ -19,6 +20,7 @@ const Routes = () => (
             <Route path="/editar-paciente"  component={EditPatient}/>
             <Route path="/novo-atendimento"  component={NewAppointment}/>
             <Route path="/listagem-atendimento"  component={ListAppointment}/>
+            <Route path="/editar-atendimento"  component={EditAppointment}/>
         </Switch>
     </BrowserRouter>
 );
