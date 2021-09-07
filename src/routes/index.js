@@ -9,6 +9,7 @@ import EditPatient from "../pages/EditPatient";
 import NewAppointment from "../pages/NewAppointment";
 import ListAppointment from "../pages/ListAppointment";
 import EditAppointment from "../pages/EditAppointment";
+import NewAppointmentNotes from "../pages/NewAppointmentNotes";
 
 const Routes = () => (
     <BrowserRouter>
@@ -21,6 +22,7 @@ const Routes = () => (
             <Route path="/novo-atendimento"  component={NewAppointment}/>
             <Route path="/listagem-atendimento"  component={ListAppointment}/>
             <Route path="/editar-atendimento"  component={EditAppointment}/>
+            <Route path="/novo-acompanhamento"  component={NewAppointmentNotes}/>
         </Switch>
     </BrowserRouter>
 );
