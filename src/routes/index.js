@@ -6,6 +6,7 @@ import Dashboard from '../pages/Dashboard';
 import NewPatient from "../pages/NewPatient";
 import ListAllPatients from "../pages/ListPatient";
 import EditPatient from "../pages/EditPatient";
+import NewAppointment from "../pages/NewAppointment";
 
 const Routes = () => (
     <BrowserRouter>
@@ -15,6 +16,7 @@ const Routes = () => (
             <Route path="/novo-paciente"  component={NewPatient}/>
             <Route path="/listagem-paciente"  component={ListAllPatients}/>
             <Route path="/editar-paciente"  component={EditPatient}/>
+            <Route path="/novo-atendimento"  component={NewAppointment}/>
         </Switch>
     </BrowserRouter>
 );
