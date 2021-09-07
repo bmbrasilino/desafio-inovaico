@@ -10,7 +10,7 @@ Os módulos contidos nele são:
 ## :rocket: Deploy em ambiente de desenvolvimento
 Faça o clone do projeto e depois acesse a pasta
 ```bash
-git clone git@github.com:bmbrasilino/desafio-inovaico.git
+git clone https://github.com/bmbrasilino/desafio-inovaico.git
 cd desafio-inovaico
 ```
 
