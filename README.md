@@ -24,6 +24,17 @@ Aguarde a finalização e faça o build da aplicação
 npm run start
 ```
 
+Após o servidor no ar, por gentileze acesse o postman. Na endpoint users para que seja criado um usuário,onde o mesmo será utilizado no login da aplicação.
+```bash
+http://127.0.0.1:3333/users/
+{
+    "name": "Admin",
+    "email": "admin@gmail.com",
+    "password": "1234"
+}
+```
+
+
 ## Licença
 The [MIT License]() (MIT)
 
