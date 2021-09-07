@@ -10,7 +10,7 @@ import NewAppointment from "../pages/NewAppointment";
 import ListAppointment from "../pages/ListAppointment";
 import EditAppointment from "../pages/EditAppointment";
 import NewAppointmentNotes from "../pages/NewAppointmentNotes";
-
+import ListAppointmentNotes from "../pages/ListAppointmentNotes";
 const Routes = () => (
     <BrowserRouter>
         <Switch>
@@ -23,6 +23,7 @@ const Routes = () => (
             <Route path="/listagem-atendimento"  component={ListAppointment}/>
             <Route path="/editar-atendimento"  component={EditAppointment}/>
             <Route path="/novo-acompanhamento"  component={NewAppointmentNotes}/>
+            <Route path="/listagem-acompanhamento"  component={ListAppointmentNotes}/>
         </Switch>
     </BrowserRouter>
 );
