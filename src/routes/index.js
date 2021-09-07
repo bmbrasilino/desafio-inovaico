@@ -11,6 +11,8 @@ import ListAppointment from "../pages/ListAppointment";
 import EditAppointment from "../pages/EditAppointment";
 import NewAppointmentNotes from "../pages/NewAppointmentNotes";
 import ListAppointmentNotes from "../pages/ListAppointmentNotes";
+import EditAppointmentNotes from "../pages/EditAppointmentNotes";
+
 const Routes = () => (
     <BrowserRouter>
         <Switch>
@@ -24,6 +26,7 @@ const Routes = () => (
             <Route path="/editar-atendimento"  component={EditAppointment}/>
             <Route path="/novo-acompanhamento"  component={NewAppointmentNotes}/>
             <Route path="/listagem-acompanhamento"  component={ListAppointmentNotes}/>
+            <Route path="/editar-acompanhamento"  component={EditAppointmentNotes}/>
         </Switch>
     </BrowserRouter>
 );
